@@ -71,6 +71,10 @@ def all_supplies_in_holidays(holiday_hash)
         binding.pry
         if (holiday == :new_years)
           temp2 = "New Years"
+        elsif (holiday == :fourth_of_july)
+          temp2 = "Fourth Of July"
+        elsif (holiday == :memorial_day)
+          temp2 = "Memorial Day"
         else
           temp2 = holiday
           temp2 = temp2.capitalize
