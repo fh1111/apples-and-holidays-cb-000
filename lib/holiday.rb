@@ -68,7 +68,11 @@ def all_supplies_in_holidays(holiday_hash)
 
     puts "#{temp}:"
       holidays.each do |holiday, supplies|
-        temp2 = holiday.gsub("_", " ")
+        if (holiday == "new_years")
+          temp2 = "new years"
+        else
+          temp2 = holiday
+        end
         temp3 = temp2.capitalize
         i=0
         string = []
