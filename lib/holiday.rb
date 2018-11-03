@@ -69,9 +69,9 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{temp}:"
       holidays.each do |holiday, supplies|
 
-        puts "  #{holiday}: "
+        list = "  "holiday+": "
         supplies.each do |supply|
-          puts "#{supply},"
+          list = list + supply + ","
         end
       end
   end
