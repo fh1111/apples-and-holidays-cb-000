@@ -73,6 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
           temp2 = "New Years"
         else
           temp2 = holiday
+          temp2 = temp2.capitalize
         end
 
         i=0
