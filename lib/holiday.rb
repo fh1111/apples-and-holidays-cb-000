@@ -69,9 +69,16 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{temp}:"
       holidays.each do |holiday, supplies|
 
-        list = "  " + holiday + ": "
+        temp2 = holiday.capitalize
+        i=0
+        string = []
         supplies.each do |supply|
-          list = list + supply + ","
+          if (i == 0)
+            string = supply
+          else
+            string = string + ", " + supply
+          end
+          i =+ 1
         end
       end
   end
