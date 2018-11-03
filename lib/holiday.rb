@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_supplies.each do |season, holidays|
     temp = season.capitalize
 
-    puts "#{temp}:"
+    puts "#{temp}:/n"
       holidays.each do |holiday, supplies|
         binding.pry
         if (holiday == :new_years)
