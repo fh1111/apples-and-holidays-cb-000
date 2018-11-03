@@ -73,7 +73,7 @@ def all_supplies_in_holidays(holiday_hash)
         i=0
         string = []
         supplies.each do |supply|
-          
+
           if (i == 0)
             string = supply
           else
