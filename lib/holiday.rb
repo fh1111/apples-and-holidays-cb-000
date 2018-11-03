@@ -70,11 +70,11 @@ def all_supplies_in_holidays(holiday_hash)
       holidays.each do |holiday, supplies|
         binding.pry
         if (holiday == :new_years)
-          temp2 = "new Years"
+          temp2 = "New Years"
         else
           temp2 = holiday
         end
-        temp3 = temp2.capitalize
+  
         i=0
         string = []
         supplies.each do |supply|
@@ -86,7 +86,7 @@ def all_supplies_in_holidays(holiday_hash)
           end
           i =+ 1
         end
-        puts "  #{temp3}: " + string
+        puts "  #{temp2}: " + string
       end
   end
 
