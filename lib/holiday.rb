@@ -67,7 +67,7 @@ def all_supplies_in_holidays(holiday_hash)
 
     temp = season
     temp[1]=temp[1].upcase
-    puts "#{temp}:"
+    puts "#{season}:"
       holidays.each do |holiday, supplies|
         puts "#{holiday}: #{supplies}"
       end
