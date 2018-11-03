@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
 
     puts "#{temp}:"
       holidays.each do |holiday, supplies|
-        binding.pry
+        #binding.pry
         if (holiday == :new_years)
           temp2 = "New Years"
         elsif (holiday == :fourth_of_july)
@@ -100,5 +100,6 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
+  holiday_hash.keys
 
 end
