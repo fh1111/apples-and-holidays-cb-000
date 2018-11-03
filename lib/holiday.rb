@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       holidays.each do |holiday, supplies|
         binding.pry
         if (holiday == :new_years)
-          temp2 = "new years"
+          temp2 = "new Years"
         else
           temp2 = holiday
         end
