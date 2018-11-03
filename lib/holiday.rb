@@ -107,8 +107,9 @@ def all_holidays_with_bbq(holiday_hash)
         if (supply == "BBQ")
           keys << holiday_hash[season].keys
         end
-        return keys
+
       end
     end
   end
+  return keys
 end
