@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
 
     puts "#{temp}:"
       holidays.each do |holiday, supplies|
-        temp2 = holiday.sub("_", " ")
+        temp2 = holiday.gsub("_", " ")
         temp3 = temp2.capitalize
         i=0
         string = []
