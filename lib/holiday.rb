@@ -85,7 +85,7 @@ def all_supplies_in_holidays(holiday_hash)
           end
           i =+ 1
         end
-        puts "  #{temp2}: " + string
+        puts "  #{temp3}: " + string
       end
   end
 
