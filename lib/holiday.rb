@@ -74,7 +74,7 @@ def all_supplies_in_holidays(holiday_hash)
         else
           temp2 = holiday
         end
-  
+
         i=0
         string = []
         supplies.each do |supply|
