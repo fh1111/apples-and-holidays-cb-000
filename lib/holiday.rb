@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{temp}:"
       holidays.each do |holiday, supplies|
         binding.pry
-        if (holiday.keys == "new_years")
+        if (holiday == :"new_years")
           temp2 = "new years"
         else
           temp2 = holiday
